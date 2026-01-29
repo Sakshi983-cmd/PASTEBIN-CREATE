@@ -1,3 +1,4 @@
+
 {
   "name": "pastebin-lite",
   "private": true,
@@ -7,7 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@vercel/kv": "^1.0.1",
+    "@upstash/redis": "^1.34.0",
     "nanoid": "^5.0.7",
     "next": "14.2.5",
     "react": "18.3.1",
