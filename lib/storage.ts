@@ -1,5 +1,7 @@
-import { kv } from '@vercel/kv';
+import { Redis } from '@upstash/redis';
 import { nanoid } from 'nanoid';
+
+const kv = Redis.fromEnv();
 
 export interface PasteData {
   content: string;
